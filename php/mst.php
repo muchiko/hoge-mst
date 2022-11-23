@@ -3,7 +3,7 @@
 class Mst {
   private $row = [1, 2];
 
-  public getRow() {
-    return $row;
+  public function getRow() {
+    return $this->row;
   }
 }
